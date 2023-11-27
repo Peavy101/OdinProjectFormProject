@@ -1,0 +1,24 @@
+html{
+    margin: auto;
+    text-align: center;
+}
+
+
+@font-face {
+    font-family: logoFont;
+    src: url(Norse-Bold.otf);
+}
+
+.logo {
+    float: left;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+    font-family: logoFont, Arial, Helvetica, sans-serif;
+    font-size: x-large;
+}
+
+.formSide {
+    float: right;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
