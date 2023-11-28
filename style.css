@@ -31,10 +31,10 @@
 }
 
 .formSide {
-    padding: 10px;
+    padding: 20px;
     position: relative;
     width:  60%;
-    height: 600px;
+    height: 800px;
     float: right;
     background-color: white;
     font-family: Arial, Helvetica, sans-serif;
@@ -42,10 +42,24 @@
 
 .form {
     padding: 30px;
+    display: flex;
+    flex-direction: column;
 }
 
 .formBox {
+    padding: 40px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.formBottom {
+    padding: 30px;
+}
+
+.form-row {
+    display: flex;
+}
+.form-item {
+    flex: 1;
 }
 
 .button {
@@ -57,7 +71,7 @@
     text-decoration: none;
     outline: none;
     color: #fff;
-    background-color: #04AA6D;
+    background-color: #596D48;
     border: none;
     border-radius: 15px;
     box-shadow: 0 1px #999;
@@ -80,8 +94,14 @@ h2 {
 
 footer {
     color: white;
+    margin-left: 5%;
 }
 
 .photoLink {
     color: white;
+}
+
+label {
+    display: block;
+    margin: 5px;
 }
