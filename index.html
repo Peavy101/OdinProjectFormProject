@@ -8,20 +8,21 @@
 </head>
 
 <body background="tree.jpg">
-    <div style="width: 50%; height: 550px; float:left;">
+    <div class="everything">
     <div class="logo">
+    <div class="logoPic">
         <img src="odin-lined.jpg" alt="" width="100" height="100">
     </div>
-    <div class="logo">
+    <div class="logoTitle">
         <p>ODIN</p>
     </div>
     </div>
-    <section class="formSide" style="width:50%; height: 550px; float:left;">
+    <div class="formSide">
         <h1>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <i>now</i> to get started.</h1>
         <h2>You <i>know</i> you want to.</h2>
 
-        <div class="inputBox">
-        <legend>Let's do this!</legend>
+        <div class="formBox">
+        <legend><b>Let's do this!</b></legend>
         <form action="https://httpbin.org/post" method="post" class="form">
 
             <section>
@@ -51,9 +52,17 @@
                 <input type="password" id="user_password" name="password">
             </section>
 
-            <button type="submit">Submit</button>
         </form>
         </div>
-    </section>
+        <div class="formBottom">
+            <div>
+                <button type="submit" class="button">Create Account</button>
+            </div>
+            <p>Already have an account? <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Log in.</a></p>
+        </div>
+
+    </div>
+    </div>
+    <footer>Photo by <u>Halie Wests</u> on <a href="https://unsplash.com/photos/green-and-brown-trees-under-blue-sky-during-daytime-bTzpau9mKT4" class="photoLink">Unsplash</a></footer>
 </body>
 </html>
